@@ -5,7 +5,7 @@ node(){
 
 
     stage('Package Build') {
-        sh "tar -zcvf bundle.tar.gz /var/jenkins_home/javascriptANDjquery"
+        sh "tar -zcvf bundle.tar.gz javascriptANDjquery"
     }
 
     stage('Artifacts Creation') {
